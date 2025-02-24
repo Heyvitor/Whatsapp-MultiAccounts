@@ -129,3 +129,7 @@ Este projeto está sob a licença MIT.
 - Temas personalizados
 - Atalhos de teclado
 - Mais opções de personalização
+
+COMANDO : python -m PyInstaller --name="WhatsApp Multi-Instância" --onefile --noconsole --icon="whatsapp.ico" --add-binary="whatsapp.ico;." --hidden-import=PyQt5.QtWebEngineWidgets --hidden-import=PyQt5.QtWebEngineCore --hidden-import=PyQt5.QtWebEngine --hidden-import=PyQt5.QtNetwork --add-data="whatsapp.ico;." new.py
+
+E
